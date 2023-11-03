@@ -1,45 +1,121 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Dev Workshop 101</title>
-    <link rel="stylesheet" href="/styles/styles.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development Workshop 101</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-
-    <section class="container">
-        <div class="flex justify-between">
-            <div>
-                <a href="/">Madelyn Torff</a>
-            </div>
-            <div class="flex">
-                <a href="#"><nav>About</nav></a>
-                <a href="#"><nav>Projects</nav></a>
-                <a href="#"><nav>Contacts</nav></a>
-            </div>
+  <div class="content">
+    <div class="div">
+      <div class="container" id="container">
+        <div class="header">
+          <img class="my-pic" src="img/my-picture.png">
+            <nav id="sidemenu">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contacts</a>
+            </nav>
+          </div>
+        <img class="jc-logo" src="img/logo.png" />
+      </div>
+      
+      <!-- Introduction -->
+      <div class="intro" id="intro">
+        <div class="content-2">
+          <div class="software">SOFTWARE DEVELOPER</div>
+          <p class="name">Hello, my name is Jestoni Cruz</p>
+          <div class="subheadline">
+            <p class="text-1">
+              Short text with details about you, what you do or your professional career. You can add more
+              information on the about page.
+            </p>
+          </div>
+          <div class="bts">
+            <div class="button-primary"><a href="#">Projects</a></div>
+            <div class="button-secondary"><a href="#">LinkedIn</a></div>
+          </div>
         </div>
-    </section>
-
-    <section class="container">
-        <div class="flex justify-between">
-            <div>
-                <p></p>
-                <h1></h1>
-                <p></p>
-
-            </div>
-            <div class="flex">
-                <a href="#"></a>
-                <a href="#"></a>               
-            </div>
-
-
+      </div>
+       
+      <div class="projects" id="projects">
+        <div class="frame">
+          <div class="text">Projects</div>
+          <div class="rectangle"></div>
         </div>
-    </section>
 
-    <script src="/Scripts/script.js"></script>
+        <!-- 1st Project  -->
+        <div class="project" >
+          <div class="project-n">
+            <div class="frame-1">
+              <div class="project-name">Project Name</div>
+              <p class="p">
+                I created this personal project in order to show how to create an interface in Figma using a portfolio
+                as an example.
+              </p>
+              <div class="botton"> <a href="#">View Project</a></div>
+            </div>
+          </div>
+          <img class="img" src="img/picture1.png" />
+        </div>
 
+
+        <!-- 2nd Project -->
+        <div class="project-2">
+          <img src="img/picture2.png" />
+          <div class="frame-wrapper">
+            <div class="frame-1">
+              <div class="project-name-2">Project Name</div>
+              <p class="text-2">What was your role, your deliverables, if the project was personal, freelancing.</p>
+              <div class="div-wrapper"><a href="#">View Project</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3rd project -->
+        <div class="project-2">
+          <div class="project-n">
+            <div class="frame-1">
+              <div class="project-name">Project Name</div>
+              <p class="p">
+                You can also add in this description the type of the project, if it was for web, mobile, electron.
+              </p>
+              <div class="botton"> <a href="#">View Project</a></div>
+            </div>
+          </div>
+          <img src="img/picture3.png">
+        </div>
+      </div>
+      
+      <!-- About Me -->
+      <div class="overlap-group" id="about">
+        <div class="about-me">
+          <div class="title">About me</div>
+            <p class="text-3">
+              Nisl arcu, scelerisque neque ut. Tincidunt amet, tempor duis tortor neque auctor dis ipsum. Pretium cras
+              amet odio amet eleifend id sed cras sed. Aliquet risus posuere aliquet imperdiet sit.
+            </p>
+          <div class="button-primary-2"><a href="#">Resume</a></div>
+        </div>
+        <img class="logo-2" src="img/my-pic-2.png" />
+        
+        <!-- Icons -->
+        <div class="footer-icons">
+          <div class="icons">
+            <img class="img-2" src="img/instagram.svg" />
+            <img class="img-2" src="img/linkedin.svg" />
+            <img class="img-2" src="img/email.svg" />
+          </div>
+          <div class="jestoni-cruz">Jestoni Cruz 2023</div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
 </body>
 </html>
+
+
+

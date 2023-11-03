@@ -1,6 +1,5 @@
 
-const body = document.body
-body.append("Web Dev")
+
 
 /*
 let i = 100
